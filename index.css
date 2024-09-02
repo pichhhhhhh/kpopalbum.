@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: sticky;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    margin: auto;
+}
+.header .logo{
+    width: auto;
+    max-width: 200px;
+    padding-left: 20px;
+}
+.header .logo img{
+    width: 100%;
+    margin-top: 20px;
+}
+.sub-meun{
+    display: flex;
+    margin-top: 23px;
+}
+.sub-meun a{
+    color: black;
+    position: relative;
+    font-weight: 400;
+    line-height: unset;
+    margin-left: 20px;
+}
+.sub-meun a:hover{
+    color: red;
+}
+.icon{
+    width: 35%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: right;
+    align-items: right;
+    gap: 25px;
+}
+.icon i{
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon i:hover{
+    color: red;
+}
+.icon a{
+    display: flex;
+}
+.contant{
+    width: 75%;
+    margin:auto;
+}
+.contant .title{
+    margin-top: 30px;
+    display: flex;
+}
+.contant .title h1{
+    width: 200%;
+}
+.contant .title h6 a:hover{
+    color: red;
+}
+.contant .title h6 a{
+    color: black; 
+}
+.contant .title h6{
+    font-size: 13px;
+    width: 30%;
+    display: flex;
+    margin-top: 25px;
+}
+.item{
+    display: flex;
+}
+.item p{
+    display: flex;
+    width: 10%;
+}
+.item .icon-table{
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    width: 90%;
+    justify-content: right;
+    align-items: right;
+    gap: 25px;
+}
+.item .icon-table i{ 
+    justify-content: right;
+    align-items: right;
+    gap: 25px;
+}
+.item .icon-table i:hover{
+    color: rgb(237, 174, 174);
+}
+.cards{
+    height: 90%;
+    margin-bottom: 50px;
+    border: none;
+}
+.cards .image{
+    width: 100%;
+    height: 450;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.cards .image img{
+    width: 100%;
+    height: 100%;
+}
+.cards .image .img1{
+    display: block;
+}
+.cards .image .img2{
+    display:none;
+}
+.cards .image:hover .img1{
+    display: none;
+}
+.cards .image:hover .img2{
+    display: block;
+}
+.cards .image:hover img{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.name-item{
+    border: none;
+    border-color: #fff;
+    font-size: 15px;
+    
+    line-height: 1.20em;
+    margin-top: 10px;
+}
+.name-item a{
+    width: 100%;
+    color: black;
+    position: relative;
+    font-weight: 350;
+    text-align: center;
+    font-weight: 450;
+}
+.name-item a:hover{
+    color: red;
+}
+.price{
+   width: 70%;
+   display: flex;
+   gap: 10px;
+   margin: auto;
+   margin-bottom: 88px;
+}
+.price h5{
+    font-size: 17px;
+}
+.price p{
+    color: red;
+    font-size: 14px;
+}
+.price pre{
+    font-weight: 450;
+
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #353535;
+}
+.footer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+.footer .row{
+    width: 100%;
+}
+.KPOP-ALBUMS{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.KPOP-ALBUMS .images{
+    margin-right: 50px;
+}
+.KPOP-ALBUMS p{
+    color: #c5c2c2;
+    font-size: 14px;
+    
+}
+.about{
+    width: 70%;
+    justify-content: start;
+    align-items: start;
+}
+.about h7{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.about a{
+    font-weight: 400;
+    color: #c5c2c2;
+    position: relative;
+}
+.about a:hover{
+    color: #fff;
+}
+.KPOPALBUMS{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.KPOPALBUMS h4{
+    font-weight: 500;
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    font-weight: 400;
+}
+.KPOPALBUMS p{
+    color: #c5c2c2;
+    font-size: 14px;
+}
+.KPOPALBUMS p i{
+    color: #c5c2c2;
+    font-size: 14px;
+    text-align: start;
+    font-weight: 800;
+}
+.KPOPALBUMS a{
+    font-weight: 600;
+    color: #c5c2c2;
+    position: relative;
+}
+.KPOPALBUMS a:hover{
+    color: #fff;
+}
+.KPOPALBUMS .checkbox label{
+    color: #c5c2c2;
+    font-size: 13px;
+}
+
+.end {
+    margin: auto;
+    text-align: center;
+    color: #c5c2c2;
+    font-size: 14px;
+}
+.end .internet{
+    gap: 10px;
+}
+.end .internet i{
+    position: relative;
+    font-weight: 350;
+    cursor: pointer;
+    font-size: 20px;
+}
+.internet i:hover{
+    color: #fff;
+}
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){ 
+header{
+width: 100%;
+height: 100px;
+ }
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.header .logo img{
+    width: 60px;
+    height: 20px;
+}
+.header .icon{
+    display: none;
+}
+.sub-meun{
+    width: 80%;
+    margin-top: 10px;
+}
+.sub-meun a {
+    margin-left: 4px;
+    width: 15%;
+    height: 40%;
+    font-weight: 600;
+    font-size: 10px;
+    justify-content: start;
+    align-items:center;  
+}
+.icon{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.icon i{
+   width: 100%;
+   height: 20%;
+   margin-left: 1px;
+   display: flex;
+
+ }
+ .contant{
+    width: 90%;
+ }
+.card{
+    width: 100%;
+}
+.card .imgage{
+    width: 100%;
+}
+.card .imgage img{
+    width: 100%;
+}
+.card .price{
+    width: 100%;
+}
+.card .name-item{
+    width: 100%;
+}
+.name-item a{
+    font-size: 13px;
+}
+.price h5 span{
+   font-size: 11px;
+}
+.price h5{
+    font-size: 11px;
+ }
+.price h5 p{
+    font-size: 11px;
+ }
+ .price pre{
+    font-size: 13px;
+ }
+footer{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+}
+.KPOP-ALBUMS{
+    width: 100%;
+    margin: auto;
+}
+.KPOP-ALBUMS .images{
+    margin-right: 50px;
+    width: 100%;
+    margin: auto;
+}
+.KPOP-ALBUMS .images img{
+    width: 30%;
+}
+.KPOP-ALBUMS .images img p{
+   font-size: 13px;
+   text-align: center;
+}
+.KPOP-ALBUMS .about{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ .about h7{
+    font-size:14px ;
+    text-align: center;
+    font-weight: 500;
+   
+ }
+ .about a{
+    font-weight: 400;
+    font-size:14px ;
+    text-align: center;
+ }
+ .KPOPALBUMS{
+    width: 100%;
+    margin: auto;
+}
+.KPOPALBUMS .about{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ }
+ .about h4{
+    font-size:14px ;
+    text-align: center;
+ }
+ .about h4 p{
+    font-size: 15px;
+    font-weight: 800;
+ }
+ .about h4 p i{
+    font-size: 15px;
+    font-weight: 800;
+ }
+.KPOPALBUMS a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.KPOPALBUMS h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+}
